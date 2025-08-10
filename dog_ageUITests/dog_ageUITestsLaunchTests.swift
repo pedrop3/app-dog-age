@@ -1,8 +1,8 @@
 //
 //  dog_ageUITestsLaunchTests.swift
-//  dog.ageUITests
+//  dog_ageUITests
 //
-//  Created by Pedro Henrique Martins dos Santos on 7/28/25.
+//  Created by Pedro Henrique Martins dos Santos on 8/10/25.
 //
 
 import XCTest

@@ -1,8 +1,8 @@
 //
 //  dog_ageUITests.swift
-//  dog.ageUITests
+//  dog_ageUITests
 //
-//  Created by Pedro Henrique Martins dos Santos on 7/28/25.
+//  Created by Pedro Henrique Martins dos Santos on 8/10/25.
 //
 
 import XCTest
@@ -33,11 +33,29 @@ final class dog_ageUITests: XCTestCase {
 
     @MainActor
     func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
+        // This measures how long it takes to launch your application.
+        measure(metrics: [XCTApplicationLaunchMetric()]) {
+            XCUIApplication().launch()
         }
     }
+    
+    func testCalculateDogAge() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let ageField = app.textFields["inputAgeDog"]
+        XCTAssertTrue(ageField.exists, "O campo de idade não foi encontrado.")
+        ageField.tap()
+        ageField.typeText("3")
+        
+        let calculateButton = app.buttons["Calculate"]
+        XCTAssertTrue(calculateButton.exists, "O botão de calcular não foi encontrado.")
+        calculateButton.tap()
+        
+        let resultLabel = app.staticTexts["resultAge"]
+        XCTAssertTrue(resultLabel.exists, "O label de resultado não foi encontrado.")
+        XCTAssertEqual(resultLabel.label, "The dog's age is: 21 years.")
+    }
+
+
 }

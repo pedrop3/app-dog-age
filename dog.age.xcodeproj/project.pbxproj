@@ -6,7 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3DB49B422E48247A00360589 /* dog.age.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 3DB49B412E48245800360589 /* dog.age.xctestplan */; };
+		3DB49B432E48247A00360589 /* dog.age.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 3DB49B412E48245800360589 /* dog.age.xctestplan */; };
+		3DB49B442E48247A00360589 /* dog.age.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 3DB49B412E48245800360589 /* dog.age.xctestplan */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
+		3DB49B3C2E481C7500360589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC26C552E3820CE00E8BA89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC26C5C2E3820CE00E8BA89;
+			remoteInfo = dog.age;
+		};
 		3DC26C742E3820CF00E8BA89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3DC26C552E3820CE00E8BA89 /* Project object */;
@@ -24,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DB49B362E481C7500360589 /* dog_ageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dog_ageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB49B412E48245800360589 /* dog.age.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = dog.age.xctestplan; sourceTree = "<group>"; };
 		3DC26C5D2E3820CE00E8BA89 /* dog.age.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dog.age.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC26C732E3820CF00E8BA89 /* dog.ageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dog.ageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC26C7D2E3820CF00E8BA89 /* dog.ageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dog.ageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +55,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		3DB49B372E481C7500360589 /* dog_ageUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = dog_ageUITests;
+			sourceTree = "<group>";
+		};
 		3DC26C5F2E3820CE00E8BA89 /* dog.age */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -53,14 +73,16 @@
 			path = dog.ageTests;
 			sourceTree = "<group>";
 		};
-		3DC26C802E3820CF00E8BA89 /* dog.ageUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = dog.ageUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3DB49B332E481C7500360589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DC26C5A2E3820CE00E8BA89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,9 +110,10 @@
 		3DC26C542E3820CE00E8BA89 = {
 			isa = PBXGroup;
 			children = (
+				3DB49B412E48245800360589 /* dog.age.xctestplan */,
 				3DC26C5F2E3820CE00E8BA89 /* dog.age */,
 				3DC26C762E3820CF00E8BA89 /* dog.ageTests */,
-				3DC26C802E3820CF00E8BA89 /* dog.ageUITests */,
+				3DB49B372E481C7500360589 /* dog_ageUITests */,
 				3DC26C5E2E3820CE00E8BA89 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +124,7 @@
 				3DC26C5D2E3820CE00E8BA89 /* dog.age.app */,
 				3DC26C732E3820CF00E8BA89 /* dog.ageTests.xctest */,
 				3DC26C7D2E3820CF00E8BA89 /* dog.ageUITests.xctest */,
+				3DB49B362E481C7500360589 /* dog_ageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +132,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3DB49B352E481C7500360589 /* dog_ageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB49B402E481C7500360589 /* Build configuration list for PBXNativeTarget "dog_ageUITests" */;
+			buildPhases = (
+				3DB49B322E481C7500360589 /* Sources */,
+				3DB49B332E481C7500360589 /* Frameworks */,
+				3DB49B342E481C7500360589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB49B3D2E481C7500360589 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DB49B372E481C7500360589 /* dog_ageUITests */,
+			);
+			name = dog_ageUITests;
+			packageProductDependencies = (
+			);
+			productName = dog_ageUITests;
+			productReference = 3DB49B362E481C7500360589 /* dog_ageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		3DC26C5C2E3820CE00E8BA89 /* dog.age */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DC26C862E3820CF00E8BA89 /* Build configuration list for PBXNativeTarget "dog.age" */;
@@ -166,9 +213,6 @@
 			dependencies = (
 				3DC26C7F2E3820CF00E8BA89 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3DC26C802E3820CF00E8BA89 /* dog.ageUITests */,
-			);
 			name = dog.ageUITests;
 			packageProductDependencies = (
 			);
@@ -183,9 +227,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					3DB49B352E481C7500360589 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 3DC26C5C2E3820CE00E8BA89;
+					};
 					3DC26C5C2E3820CE00E8BA89 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -216,11 +264,20 @@
 				3DC26C5C2E3820CE00E8BA89 /* dog.age */,
 				3DC26C722E3820CF00E8BA89 /* dog.ageTests */,
 				3DC26C7C2E3820CF00E8BA89 /* dog.ageUITests */,
+				3DB49B352E481C7500360589 /* dog_ageUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3DB49B342E481C7500360589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB49B442E48247A00360589 /* dog.age.xctestplan in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DC26C5B2E3820CE00E8BA89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB49B422E48247A00360589 /* dog.age.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,12 +297,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB49B432E48247A00360589 /* dog.age.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3DB49B322E481C7500360589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3DC26C592E3820CE00E8BA89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +335,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3DB49B3D2E481C7500360589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC26C5C2E3820CE00E8BA89 /* dog.age */;
+			targetProxy = 3DB49B3C2E481C7500360589 /* PBXContainerItemProxy */;
+		};
 		3DC26C752E3820CF00E8BA89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3DC26C5C2E3820CE00E8BA89 /* dog.age */;
@@ -282,6 +353,41 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3DB49B3E2E481C7500360589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S8UPRVD7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.dog-ageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dog.age;
+			};
+			name = Debug;
+		};
+		3DB49B3F2E481C7500360589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.dog-ageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dog.age;
+			};
+			name = Release;
+		};
 		3DC26C872E3820CF00E8BA89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -289,6 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S8UPRVD7D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dog.age/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +423,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S8UPRVD7D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dog.age/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -461,6 +569,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S8UPRVD7D;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
@@ -496,6 +605,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6S8UPRVD7D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.learn.dog-ageUITests";
@@ -526,6 +636,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3DB49B402E481C7500360589 /* Build configuration list for PBXNativeTarget "dog_ageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB49B3E2E481C7500360589 /* Debug */,
+				3DB49B3F2E481C7500360589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3DC26C582E3820CE00E8BA89 /* Build configuration list for PBXProject "dog.age" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

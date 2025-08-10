@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "4A1F66FB-9D46-48EE-9B91-A853574B14FA",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:dog.age.xcodeproj",
+      "identifier" : "3DC26C5C2E3820CE00E8BA89",
+      "name" : "dog.age"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:dog.age.xcodeproj",
+        "identifier" : "3DC26C722E3820CF00E8BA89",
+        "name" : "dog.ageTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:dog.age.xcodeproj",
+        "identifier" : "3DC26C7C2E3820CF00E8BA89",
+        "name" : "dog.ageUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:dog.age.xcodeproj",
+        "identifier" : "3DB49B352E481C7500360589",
+        "name" : "dog_ageUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
